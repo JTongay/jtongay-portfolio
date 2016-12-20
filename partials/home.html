@@ -1,0 +1,10 @@
+<div class="container">
+    <div uib-carousel active="view.active" interval="view.imageInterval" no-wrap="view.noWrapSlides">
+      <div uib-slide ng-repeat="picture in view.pictures track by picture.id" index="$index">
+        <img ng-src="{{picture.image}}" alt="" class="img-responsive">
+        <div class="carousel-caption">
+          <h4>Slide {{$index + 1}}</h4>
+        </div>
+      </div>
+    </div>
+</div>
