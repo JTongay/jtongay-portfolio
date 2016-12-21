@@ -9,7 +9,15 @@ app.config(function($stateProvider, $urlRouterProvider, $httpProvider){
     templateUrl: 'partials/home.html'
   }
 
-  $stateProvider.state(home)
+  var single = {
+    name: 'single',
+    url: '/single',
+    controller: 'single',
+    templateUrl: 'partials/project.html'
+  }
+
+  $stateProvider.state(home);
+  $stateProvider.state(single);
 
   $urlRouterProvider.otherwise('/')
 })

@@ -7,6 +7,7 @@
     position: relative;
 }
 
-.raspi {
-    height: 450px;
+.screenshots {
+    max-height: 520px;
+    margin: 0 auto;
 }
