@@ -1,10 +1,16 @@
-<div class="container">
-    <div uib-carousel active="view.active" interval="view.imageInterval" no-wrap="view.noWrapSlides">
-      <div uib-slide ng-repeat="picture in view.pictures track by picture.id" index="$index">
-        <h3>{{picture.title}}</h3>
-        <a ui-sref="single">
-        <img ng-src="{{picture.image}}" alt="" class="img-responsive screenshots">
-        </a>
+<div class="main-page">
+    <div class="joey-intro">
+      <!-- <img src="images/Joey-1.jpg" alt="" class="joey">
+      <div class="name">
+        <p class="title">My Name is</p>
+        <p class="title"> Joseph Tongay</p>
+        <a href="#" class="lead" ng-click="view.showAbout()">About</a><span class="lead">///</span>
+        <a ui-sref="list" class="lead">Projects</a><span class="lead">///</span>
+        <a href="#" class="lead">Contact</a><span class="lead">///</span>
+        <a href="http://jtongay-challenge.ghost.io/" class="lead" target="_blank">Blog</a>
+      </div> -->
+      <div class="about-section container-fluid" ng-show="view.about">
+        
       </div>
     </div>
 </div>
