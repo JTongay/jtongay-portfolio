@@ -13,7 +13,8 @@
 }
 
 .main-page {
-    background-color: #2cd3d3;
+    background-color: black;
+    color: #adadad;
 }
 
 .joey-intro {
@@ -34,4 +35,21 @@
 .title {
     font-size: 8vw;
     color: #2cd3d3;
+}
+
+.tech-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.techs {
+    max-height: 70px;
+    flex: 2;
+    flex-grow: 0;
+}
+
+.express-font {
+    color: greenyellow;
+    font-family: Helvetica Neue;
+    font-weight: 100;
 }
