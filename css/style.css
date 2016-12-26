@@ -46,6 +46,7 @@
 .tech-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .techs {
@@ -54,10 +55,21 @@
     flex-grow: 0;
 }
 
+.techs:hover {
+    z-index: 1;
+    max-height: 100px;
+}
+
 .express-font {
     color: greenyellow;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     font-family: Helvetica Neue;
     font-weight: 100;
     font-style: oblique;
+}
+
+.projects {
+    background-color: #2cd3d3;
+    height: 100%;
+    width: 100%;
 }
