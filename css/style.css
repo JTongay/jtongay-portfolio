@@ -51,6 +51,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-top: 40px;
 }
 
 .techs {
@@ -62,6 +63,10 @@
 .techs:hover {
     z-index: 1;
     max-height: 100px;
+}
+
+.bio {
+    font-size: 2rem;
 }
 
 .express-font {
@@ -76,4 +81,7 @@
     background-color: #2cd3d3;
     height: 100%;
     width: 100%;
+}
+
+
 }
