@@ -38,6 +38,10 @@
     color: #2cd3d3;
 }
 
+.contact:hover {
+    text-decoration: none;
+}
+
 .title {
     font-size: 8vw;
     color: #2cd3d3;

@@ -70,9 +70,9 @@ app.config(function($stateProvider, $urlRouterProvider, $httpProvider){
   }
 
   $stateProvider.state(home);
-  $stateProvider.state(projects);
-  $stateProvider.state(projectsCarousel);
-  $stateProvider.state(projectDetail);
+  // $stateProvider.state(projects);
+  // $stateProvider.state(projectsCarousel);
+  // $stateProvider.state(projectDetail);
 
   // $stateProvider.state(single);
   // $stateProvider.state(pokemonStay);
