@@ -32,57 +32,110 @@
                         <h1>About Me</h1>
                         <img src="images/JT-logo-2x.png" alt="">
                         <p class="bio">
-                            I am a Full-Stack Web Developer, Galvanize graduate, dog dad, and all-around nerd. After being a touring musician and waiter my whole life, I decided to make Web Development the next chapter in my life. Since I began that chapter, I was hooked and
-                            it's become one of the best decisions of my life.
+                            I am a Full-Stack Web Developer, Galvanize graduate, dog dad, and all-around nerd. After being a touring musician and waiter my whole life, I decided to make Web Development the next chapter in my life. Since I began that chapter, I was hooked and it's
+                            become one of the best decisions of my life.
                         </p>
                     </div>
                     <div class="col-md-8">
-                      <div class="tech-stack">
-                          <h1>Technologies I use</h1>
-                          <div class="tech-container">
-                              <img src="images/nodejs-logo.png" alt="" class="techs">
-                              <h3 class="techs express-font">Express</h3>
-                              <img src="images/ng-logo.png" alt="" class="techs">
-                              <img src="images/postgres-logo.png" alt="" class="techs">
-                              <img src="images/ionic_logo.svg" alt="" class="techs">
-                              <img src="images/mocha-logo.png" alt="" class="techs">
-                              <img src="images/chai-logo.png" alt="" class="techs">
-                          </div>
-                          <div class="tech-container">
-                              <img src="images/ruby-rails-logo.png" alt="" class="techs">
-                              <img src="images/HTML5_Logo_512.png" alt="" class="techs">
-                              <img src="images/css3-logo.png" alt="" class="techs">
-                              <img src="images/javascript-logo.png" alt="" class="techs">
-                              <img src="images/jQuery.gif" alt="" class="techs">
-                              <img src="images/bootstrap_solid.png" alt="" class="techs">
-                              <img src="images/heroku-logo.png" alt="" class="techs">
-                          </div>
-                      </div>
+                        <div class="tech-stack">
+                            <h1>Technologies I use</h1>
+                            <div class="tech-container">
+                                <img src="images/nodejs-logo.png" alt="" class="techs">
+                                <h2 class="techs express-font">Express</h2>
+                                <img src="images/ng-logo.png" alt="" class="techs">
+                                <img src="images/postgres-logo.png" alt="" class="techs">
+                                <img src="images/ionic_logo.svg" alt="" class="techs">
+                                <img src="images/mocha-logo.png" alt="" class="techs">
+                                <img src="images/chai-logo.png" alt="" class="techs">
+                            </div>
+                            <div class="tech-container">
+                                <img src="images/ruby-rails-logo.png" alt="" class="techs">
+                                <img src="images/HTML5_Logo_512.png" alt="" class="techs">
+                                <img src="images/css3-logo.png" alt="" class="techs">
+                                <img src="images/javascript-logo.png" alt="" class="techs">
+                                <img src="images/jQuery.gif" alt="" class="techs">
+                                <img src="images/bootstrap_solid.png" alt="" class="techs">
+                                <img src="images/heroku-logo.png" alt="" class="techs">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <h2>Planner</h2>
-            <p class="bio">I am a researcher of every new piece of technology I use. To construct any database I'm creating, I map out an ERD to make the structure and relationships in my databases as efficient as possible. I methodically write out User Stories on a
-                Scrum Board and break each one down into smaller tasks to complete areas of the application within a deadline.</p>
-            <h2>Creator</h2>
-            <p class="bio">After plenty of research and planning, I can implement features in a TDD and BDD style using multiple frameworks. I've always been a perfectionist and always looking for the most optimal way to refactor code. Every project I have worked on,
-                I have had fun solving any problem and implementing any feature needed for an application.</p>
-            <h2>Team Member</h2>
-            <p class="bio">With a background in working in restaurants, I'm able to fit into any team and play whatever role is needed for the team. I have many years of experience with being a part of and leading a team with respect and professionalism. I can speak
-                to fellow team members comfortably and bring fun to any occassion.</p>
+            <div class="descriptions">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2 class="text-center">Planner</h2>
+                        <p class="bio">I am a researcher of every new piece of technology I use. To construct any database I'm creating, I map out an ERD to make the structure and relationships in my databases as efficient as possible. I methodically write out User
+                            Stories on a Scrum Board and break each one down into smaller tasks to complete areas of the application within a deadline.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h2 class="text-center">Creator</h2>
+                        <p class="bio">After plenty of research and planning, I can implement features in a TDD and BDD style using multiple frameworks. I've always been a perfectionist and always looking for the most optimal way to refactor code. Every project I have
+                            worked on, I have had fun solving any problem and implementing any feature needed for an application.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h2 class="text-center">Team Member</h2>
+                        <p class="bio">With a background in working in restaurants, I'm able to fit into any team and play whatever role is needed for the team. I have many years of experience with being a part of and leading a team with respect and professionalism.
+                            I can speak to fellow team members comfortably and bring fun to any occassion.</p>
+                    </div>
         </article>
-    </div>
-    <div class="container projects">
-        <div uib-carousel active="view.active" interval="view.imageInterval" no-wrap="view.noWrapSlides">
-            <div uib-slide ng-repeat="picture in view.pictures track by picture.id" index="$index">
-                <h3>{{picture.title}}</h3>
-                <a ui-sref="detail({project_name: picture.url})">
-                    <img ng-src="{{picture.image}}" alt="" class="img-responsive screenshots">
-                </a>
-            </div>
         </div>
-        <ui-view></ui-view>
+        </div>
     </div>
+    <section class="container projects">
+      <div class="row">
+        <div class="col-md-5">
+          <h2>Raspberry Pi Smart-TV</h2>
+        </div>
+        <div class="col-md-7">
+          <div uib-carousel active="view.active" interval="view.imageInterval" no-wrap="view.noWrapSlides">
+              <div uib-slide ng-repeat="picture in view.pictures track by picture.id" index="$index">
+                  <h3>{{picture.title}}</h3>
+                  <img ng-src="{{picture.image}}" alt="" class="img-responsive screenshots">
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-7">
+          <div uib-carousel active="view.active" interval="view.imageInterval" no-wrap="view.noWrapSlides">
+              <div uib-slide ng-repeat="picture in view.pictures track by picture.id" index="$index">
+                  <h3>{{picture.title}}</h3>
+                  <img ng-src="{{picture.image}}" alt="" class="img-responsive screenshots">
+              </div>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <h2>Rails Reddit Clone</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-5">
+          <h2>Digital Rolodex</h2>
+        </div>
+        <div class="col-md-7">
+          <div uib-carousel active="view.active" interval="view.imageInterval" no-wrap="view.noWrapSlides">
+              <div uib-slide ng-repeat="picture in view.pictures track by picture.id" index="$index">
+                  <h3>{{picture.title}}</h3>
+                  <img ng-src="{{picture.image}}" alt="" class="img-responsive screenshots">
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-7">
+          <div uib-carousel active="view.active" interval="view.imageInterval" no-wrap="view.noWrapSlides">
+              <div uib-slide ng-repeat="picture in view.pictures track by picture.id" index="$index">
+                  <h3>{{picture.title}}</h3>
+                  <img ng-src="{{picture.image}}" alt="" class="img-responsive screenshots">
+              </div>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <h2>Pokemon Stay!</h2>
+        </div>
+      </div>
+    </section>
     <footer class="footer">
         <div class="container">
             <h1>This is the footer</h1>
