@@ -2,16 +2,6 @@
     height: 135%;
 }
 
-#slideshow {
-    margin: 50px auto;
-    position: relative;
-}
-
-.screenshots {
-    max-height: 520px;
-    margin: 0 auto;
-}
-
 .main-page {
     background-color: #FFDB99;
     /*color: #adadad;*/
@@ -82,5 +72,22 @@
     width: 100%;
 }
 
+#slideshow {
+    margin: 50px auto;
+    position: relative;
+}
 
+.screenshots {
+    margin: 0 auto;
+    width: auto;
+    height: 350px;
+    max-height: 350px;
+    display: block;
+    overflow: visible;
+    /*width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-bottom: 12px;
+    margin-left: auto;
+    float: none;*/
 }

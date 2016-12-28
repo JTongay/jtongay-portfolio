@@ -82,57 +82,67 @@
         </div>
         </div>
     </div>
-    <section class="container projects">
+    <section class="container-fluid projects">
       <div class="row">
-        <div class="col-md-5">
+        <div class="col-md-6 text-center">
           <h2>Raspberry Pi Smart-TV</h2>
+          <p>This was a very fun project. I had gotten a Raspberry Pi 3 for my birthday and wanted to do some sort of project with it for class. The guidelines for the project were very simple, create something outside of the box </p>
+          <a class="btn btn-primary" href="https://github.com/JTongay/q3-smart-tv" role="button" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
         </div>
-        <div class="col-md-7">
-          <div uib-carousel active="view.active" interval="view.imageInterval" no-wrap="view.noWrapSlides">
-              <div uib-slide ng-repeat="picture in view.pictures track by picture.id" index="$index">
-                  <h3>{{picture.title}}</h3>
+        <div class="col-md-6">
+          <div uib-carousel interval="view.imageInterval" no-wrap="view.noWrapSlides">
+              <div uib-slide ng-repeat="picture in view.raspi track by picture.id" index="$index">
+                <a ng-href="{{picture.image}}" target="_blank">
                   <img ng-src="{{picture.image}}" alt="" class="img-responsive screenshots">
+                </a>
               </div>
           </div>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-7">
-          <div uib-carousel active="view.active" interval="view.imageInterval" no-wrap="view.noWrapSlides">
-              <div uib-slide ng-repeat="picture in view.pictures track by picture.id" index="$index">
+        <div class="col-md-6">
+          <div uib-carousel interval="view.imageInterval" no-wrap="view.noWrapSlides">
+              <div uib-slide ng-repeat="picture in view.railsReddit track by picture.id" index="$index">
                   <h3>{{picture.title}}</h3>
-                  <img ng-src="{{picture.image}}" alt="" class="img-responsive screenshots">
+                  <a ng-href="{{picture.image}}" target="_blank">
+                    <img ng-src="{{picture.image}}" alt="" class="img-responsive screenshots">
+                  </a>
               </div>
           </div>
         </div>
-        <div class="col-md-5">
+        <div class="col-md-6 text-center">
           <h2>Rails Reddit Clone</h2>
+          <a class="btn btn-primary" href="https://github.com/JTongay/q3-smart-tv" role="button" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-5">
+        <div class="col-md-6 text-center">
           <h2>Digital Rolodex</h2>
+          <a class="btn btn-primary" href="https://github.com/JTongay/q3-smart-tv" role="button" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
         </div>
-        <div class="col-md-7">
-          <div uib-carousel active="view.active" interval="view.imageInterval" no-wrap="view.noWrapSlides">
-              <div uib-slide ng-repeat="picture in view.pictures track by picture.id" index="$index">
-                  <h3>{{picture.title}}</h3>
+        <div class="col-md-6">
+          <div uib-carousel interval="view.imageInterval" no-wrap="view.noWrapSlides">
+              <div uib-slide ng-repeat="picture in view.digidex track by picture.id" index="$index">
+                <a ng-href="{{picture.image}}" target="_blank">
                   <img ng-src="{{picture.image}}" alt="" class="img-responsive screenshots">
+                </a>
               </div>
           </div>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-7">
-          <div uib-carousel active="view.active" interval="view.imageInterval" no-wrap="view.noWrapSlides">
-              <div uib-slide ng-repeat="picture in view.pictures track by picture.id" index="$index">
-                  <h3>{{picture.title}}</h3>
+        <div class="col-md-6">
+          <div uib-carousel interval="view.imageInterval" no-wrap="view.noWrapSlides">
+              <div uib-slide ng-repeat="picture in view.pokemonstay track by picture.id" index="$index">
+                <a ng-href="{{picture.image}}" target="_blank">
                   <img ng-src="{{picture.image}}" alt="" class="img-responsive screenshots">
+                </a>
               </div>
           </div>
         </div>
-        <div class="col-md-5">
+        <div class="col-md-6 text-center">
           <h2>Pokemon Stay!</h2>
+          <a class="btn btn-primary" href="https://github.com/JTongay/q3-smart-tv" role="button" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
         </div>
       </div>
     </section>
