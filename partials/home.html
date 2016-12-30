@@ -41,7 +41,8 @@
                             <h1>Technologies I use</h1>
                             <div class="tech-container">
                                 <img src="images/nodejs-logo.png" alt="" class="techs">
-                                <h2 class="techs express-font">Express</h2>
+                                <img src="images/express-logo.png" alt="" class="techs">
+
                                 <img src="images/ng-logo.png" alt="" class="techs">
                                 <img src="images/postgres-logo.png" alt="" class="techs">
                                 <img src="images/ionic_logo.svg" alt="" class="techs">
@@ -83,14 +84,14 @@
         </div>
     </div>
     <section class="container-fluid projects">
+      <h2 class="text-center">Pi-TV</h2>
       <div class="row">
-        <div class="col-md-6 text-center">
-          <h2>Raspberry Pi Smart-TV</h2>
-          <p>This was a very fun project. I had gotten a Raspberry Pi 3 for my birthday and wanted to do some sort of project with it for class. The guidelines for the project were very simple, create something outside of the box. BOOOYAHHH</p>
-          <a class="btn btn-primary" href="https://github.com/JTongay/q3-smart-tv" role="button" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+        <div class="col-md-6 bio">
+          <p>This was a very fun project. I had gotten a Raspberry Pi 3 for my birthday and wanted to do some sort of project with it for class. The guidelines for the project were very simple, create something outside of the box. I already had a few CRUD apps in my pocket, so this project got me very excited. My fellow class-mate and I decided to make a smart TV because we knew we wanted to incorporate a mobile app with project. The challenge for this project was to have it completed in one week. My class-mate and I took to the Agile Methodology to get this project completed within the time frame. Our MVP (minumumal viable product) was to get it to play a YouTube video. We also decided to document our entire process with a blog to give people a better idea our thoughts throughout the project. After a few internet problems in campus, we managed to get our MVP completed within the week.</p>
+          <p><ins>My Contribution:</ins> The entire Front-End in Ionic.</p>
         </div>
         <div class="col-md-6">
-          <div uib-carousel interval="view.imageInterval" no-wrap="view.noWrapSlides">
+          <div uib-carousel active="view.active" interval="view.imageInterval" no-wrap="view.noWrapSlides">
               <div uib-slide ng-repeat="picture in view.raspi track by picture.id" index="$index">
                 <a ng-href="{{picture.image}}" target="_blank">
                   <img ng-src="{{picture.image}}" alt="" class="img-responsive screenshots">
@@ -99,6 +100,21 @@
           </div>
         </div>
       </div>
+      <div class="row">
+        <div class="col-md-6 technologies-used">
+          <h2>Technologies Used</h2>
+          <img src="images/nodejs-logo.png" alt="" class="techs">
+          <img src="images/express-logo.png" alt="" class="techs">
+          <img src="images/socketio2.png" alt="" class="techs">
+          <img src="images/ionic_logo.svg" alt="" class="techs">
+        </div>
+        <div class="col-md-6 links">
+          <h2>Links</h2>
+          <a href="https://github.com/JTongay/q3-smart-tv" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+          <a href="https://jtongay.github.io/q3-static-site/index.html" target="_blank"><i class="fa fa-rss fa-3x" aria-hidden="true">Blog</i></a>
+        </div>
+      </div>
+      <h2 class="text-center">Rails Reddit Clone</h2>
       <div class="row">
         <div class="col-md-6">
           <div uib-carousel interval="view.imageInterval" no-wrap="view.noWrapSlides">
