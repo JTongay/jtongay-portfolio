@@ -56,14 +56,15 @@
     flex-grow: 0;
 }
 
-.techs:hover {
+
+/*.techs:hover {
     max-height: 100px;
-}
+}*/
 
 .bio {
     font-size: 2rem;
-    height: 354px;
-    overflow: scroll;
+    /*height: 354px;
+    overflow: scroll;*/
 }
 
 .express-font {

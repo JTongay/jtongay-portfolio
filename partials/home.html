@@ -91,7 +91,7 @@
           <p><ins>My Contribution:</ins> The entire Front-End in Ionic.</p>
         </div>
         <div class="col-md-6">
-          <div uib-carousel active="view.active" interval="view.imageInterval" no-wrap="view.noWrapSlides">
+          <div uib-carousel active="" interval="view.imageInterval" no-wrap="view.noWrapSlides">
               <div uib-slide ng-repeat="picture in view.raspi track by picture.id" index="$index">
                 <a ng-href="{{picture.image}}" target="_blank">
                   <img ng-src="{{picture.image}}" alt="" class="img-responsive screenshots">
@@ -116,8 +116,8 @@
       </div>
       <h2 class="text-center">Rails Reddit Clone</h2>
       <div class="row">
-        <div class="col-md-6">
-          <div uib-carousel interval="view.imageInterval" no-wrap="view.noWrapSlides">
+        <div class="col-md-7">
+          <div uib-carousel active="" interval="view.imageInterval" no-wrap="view.noWrapSlides">
               <div uib-slide ng-repeat="picture in view.railsReddit track by picture.id" index="$index">
                   <h3>{{picture.title}}</h3>
                   <a ng-href="{{picture.image}}" target="_blank">
@@ -126,9 +126,24 @@
               </div>
           </div>
         </div>
-        <div class="col-md-6 text-center">
-          <h2>Rails Reddit Clone</h2>
-          <a class="btn btn-primary" href="https://github.com/JTongay/q3-smart-tv" role="button" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+        <div class="col-md-5 bio">
+          <p><ins>The Assignment:</ins> Enter an unfamiliar environment and build a CRUD app in 3 weeks.</p>
+          <p><ins>The Challenges:</ins> Getting out of the JavaScript mindset and learning a brand new language in Ruby.</p>
+          <p><ins>The Process:</ins> I read Michael Hartl's <a href="https://www.railstutorial.org/book/" target="_blank">Ruby on Rails Tutorial</a> as well as a CodeAcademy course to get the basics down. It did not take long to understand core RoR concepts with previous knowledge.</p>
+          <p><ins>The Result:</ins> A full CRUD Reddit Clone with user authentication/sign-in, posts, comments, and is fully deployed to Heroku.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-7 technologies-used">
+          <h2>Technologies Used</h2>
+          <img src="images/ruby-rails-logo.png" alt="" class="techs">
+          <img src="images/bootstrap_solid.png" alt="" class="techs">
+          <img src="images/heroku-logo.png" alt="" class="techs">
+        </div>
+        <div class="col-md-5 links">
+          <h2>Links</h2>
+          <a href="https://github.com/JTongay/rails-reddit-clone" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+          <a href="https://arcane-meadow-50906.herokuapp.com/" target="_blank"><i class="fa fa-desktop fa-3x" aria-hidden="true"></i></a>
         </div>
       </div>
       <div class="row">
@@ -137,7 +152,7 @@
           <a class="btn btn-primary" href="https://github.com/JTongay/q3-smart-tv" role="button" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
         </div>
         <div class="col-md-6">
-          <div uib-carousel interval="view.imageInterval" no-wrap="view.noWrapSlides">
+          <div uib-carousel active="" interval="view.imageInterval" no-wrap="view.noWrapSlides">
               <div uib-slide ng-repeat="picture in view.digidex track by picture.id" index="$index">
                 <a ng-href="{{picture.image}}" target="_blank">
                   <img ng-src="{{picture.image}}" alt="" class="img-responsive screenshots">
@@ -148,7 +163,7 @@
       </div>
       <div class="row">
         <div class="col-md-6">
-          <div uib-carousel interval="view.imageInterval" no-wrap="view.noWrapSlides">
+          <div uib-carousel active="" interval="view.imageInterval" no-wrap="view.noWrapSlides">
               <div uib-slide ng-repeat="picture in view.pokemonstay track by picture.id" index="$index">
                 <a ng-href="{{picture.image}}" target="_blank">
                   <img ng-src="{{picture.image}}" alt="" class="img-responsive screenshots">
