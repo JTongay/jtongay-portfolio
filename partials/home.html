@@ -148,13 +148,13 @@
       </div>
       <h2 class="text-center">Digital Rolodex</h2>
       <div class="row">
-        <div class="col-md-6 bio">
+        <div class="col-md-5 bio">
           <p><ins>The Assignment:</ins> Work in a team of 6 to create a Full-Stack and full CRUD application using any API in 1 week.</p>
           <p><ins>The Challenge:</ins> It was everyones first time working in a group of this size, so the Git workflow was new.</p>
           <p><ins>My Contributions:</ins> The ERD for everyone to be on the same page with tables, columns, and relationships. The migrations and seeds for development and testing databases. The tags feature where you can drag and drop descriptive tags for adding a new contact.</p>
           <p><ins>The Result:</ins> A full CRUD digital rolodex to keep all of a users contacts information in case the user loses business cards. The user can sign-up/log-in, create new contacts by either filling out the form or uploading a picture of a business card to fill out the form for you. The user can assign tags to a contact to describe who that person is.</p>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-7">
           <div uib-carousel active="" interval="view.imageInterval" no-wrap="view.noWrapSlides">
               <div uib-slide ng-repeat="picture in view.digidex track by picture.id" index="$index">
                 <a ng-href="{{picture.image}}" target="_blank">
@@ -165,7 +165,23 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-7 technologies-used">
+          <h2>Technologies Used</h2>
+          <img src="images/nodejs-logo.png" alt="" class="techs">
+          <img src="images/express-logo.png" alt="" class="techs">
+          <img src="images/postgres-logo.png" alt="" class="techs">
+          <img src="images/jQuery.gif" alt="" class="techs">
+          <img src="images/heroku-logo.png" alt="" class="techs">
+        </div>
+        <div class="col-md-5 links">
+          <h2>Links</h2>
+          <a href="https://github.com/midastouchprd/digital-rolodex" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+          <a href="http://digital-rolodex.herokuapp.com/login" target="_blank"><i class="fa fa-desktop fa-3x" aria-hidden="true"></i></a>
+        </div>
+      </div>
+      <h2 class="text-center">Pokemon Stay!</h2>
+      <div class="row">
+        <div class="col-md-7">
           <div uib-carousel active="" interval="view.imageInterval" no-wrap="view.noWrapSlides">
               <div uib-slide ng-repeat="picture in view.pokemonstay track by picture.id" index="$index">
                 <a ng-href="{{picture.image}}" target="_blank">
@@ -174,9 +190,23 @@
               </div>
           </div>
         </div>
-        <div class="col-md-6 text-center">
-          <h2>Pokemon Stay!</h2>
-          <a class="btn btn-primary" href="https://github.com/JTongay/q3-smart-tv" role="button" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+        <div class="col-md-5 bio">
+          <p><ins>The Assignment:</ins> Make your first website using any API of your choice.</p>
+          <p><ins>The Challenge:</ins> Getting used to reading documentation for different API's and other JavaScript libraries. Also, the pathing for each pokemon in explore mode.</p>
+          <p><ins>The Process:</ins> I read documentation like crazy on each API I used, Bootstrap, and Paperjs. Having my instructors as mentors was my first experience doing pair-programming and was a fantastic source of help.</p>
+          <p><ins>The Result:</ins> An encyclopedia of Pokemon knowledge broken down by each generation and a related YouTube video of a selected pokemon. Also in browse mode, you can move your character around to "catch" a pokemon coming at you to see more information about it.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-7 technologies-used">
+          <h2>Technologies Used</h2>
+          <img src="images/jQuery.gif" alt="" class="techs">
+          <img src="images/bootstrap_solid.png" alt="" class="techs">
+        </div>
+        <div class="col-md-5 links">
+          <h2>Links</h2>
+          <a href="https://github.com/JTongay/q1-pokemon-stay" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+          <a href="https://jtongay.github.io/q1-pokemon-stay/" target="_blank"><i class="fa fa-desktop fa-3x" aria-hidden="true"></i></a>
         </div>
       </div>
     </section>
