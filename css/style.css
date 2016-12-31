@@ -102,3 +102,23 @@
     margin-left: auto;
     float: none;*/
 }
+
+.screenshots-phone {
+    margin: 0 auto;
+    width: auto;
+    height: 350px;
+    /*height: 100%;*/
+    max-height: 350px;
+    display: block;
+    overflow: visible;
+}
+
+.screenshots-reddit {
+    margin: 0 auto;
+    width: auto;
+    height: 375px;
+    /*height: 100%;*/
+    max-height: 375px;
+    display: block;
+    overflow: visible;
+}

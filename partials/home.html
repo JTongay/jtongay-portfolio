@@ -87,14 +87,16 @@
       <h2 class="text-center">Pi-TV</h2>
       <div class="row">
         <div class="col-md-6 bio">
-          <p>This was a very fun project. I had gotten a Raspberry Pi 3 for my birthday and wanted to do some sort of project with it for class. The guidelines for the project were very simple, create something outside of the box. I already had a few CRUD apps in my pocket, so this project got me very excited. My fellow class-mate and I decided to make a smart TV because we knew we wanted to incorporate a mobile app with project. The challenge for this project was to have it completed in one week. My class-mate and I took to the Agile Methodology to get this project completed within the time frame. Our MVP (minumumal viable product) was to get it to play a YouTube video. We also decided to document our entire process with a blog to give people a better idea our thoughts throughout the project. After a few internet problems in campus, we managed to get our MVP completed within the week.</p>
+          <p><ins>The Assignment:</ins> Create something creative that is not a CRUD app in 1 week.</p>
+          <p><ins>The Challenges:</ins> The most difficult part was to get the Ionic App to communicate with the Raspberry Pi. We had issues with the internet at campus, so we only really had 2 days of actual code written.</p>
           <p><ins>My Contribution:</ins> The entire Front-End in Ionic.</p>
+          <p><ins>The Result:</ins> A fully functioning Raspberry Pi Chromecast-like device that will play YouTube videos controlled by the app. The video is not streamed, but downloaded to the device and has some issues with playing music videos.</p>
         </div>
         <div class="col-md-6">
           <div uib-carousel active="" interval="view.imageInterval" no-wrap="view.noWrapSlides">
               <div uib-slide ng-repeat="picture in view.raspi track by picture.id" index="$index">
                 <a ng-href="{{picture.image}}" target="_blank">
-                  <img ng-src="{{picture.image}}" alt="" class="img-responsive screenshots">
+                  <img ng-src="{{picture.image}}" alt="" class="img-responsive screenshots-phone">
                 </a>
               </div>
           </div>
@@ -121,7 +123,7 @@
               <div uib-slide ng-repeat="picture in view.railsReddit track by picture.id" index="$index">
                   <h3>{{picture.title}}</h3>
                   <a ng-href="{{picture.image}}" target="_blank">
-                    <img ng-src="{{picture.image}}" alt="" class="img-responsive screenshots">
+                    <img ng-src="{{picture.image}}" alt="" class="img-responsive screenshots-reddit">
                   </a>
               </div>
           </div>
@@ -150,7 +152,7 @@
       <div class="row">
         <div class="col-md-5 bio">
           <p><ins>The Assignment:</ins> Work in a team of 6 to create a Full-Stack and full CRUD application using any API in 1 week.</p>
-          <p><ins>The Challenge:</ins> It was everyones first time working in a group of this size, so the Git workflow was new.</p>
+          <p><ins>The Challenges:</ins> It was everyones first time working in a group of this size, so the Git workflow was new.</p>
           <p><ins>My Contributions:</ins> The ERD for everyone to be on the same page with tables, columns, and relationships. The migrations and seeds for development and testing databases. The tags feature where you can drag and drop descriptive tags for adding a new contact.</p>
           <p><ins>The Result:</ins> A full CRUD digital rolodex to keep all of a users contacts information in case the user loses business cards. The user can sign-up/log-in, create new contacts by either filling out the form or uploading a picture of a business card to fill out the form for you. The user can assign tags to a contact to describe who that person is.</p>
         </div>
@@ -191,8 +193,8 @@
           </div>
         </div>
         <div class="col-md-5 bio">
-          <p><ins>The Assignment:</ins> Make your first website using any API of your choice.</p>
-          <p><ins>The Challenge:</ins> Getting used to reading documentation for different API's and other JavaScript libraries. Also, the pathing for each pokemon in explore mode.</p>
+          <p><ins>The Assignment:</ins> Make your first website using any API of your choice in 1 week.</p>
+          <p><ins>The Challenges:</ins> Getting used to reading documentation for different API's and other JavaScript libraries. Also, the pathing for each pokemon in explore mode.</p>
           <p><ins>The Process:</ins> I read documentation like crazy on each API I used, Bootstrap, and Paperjs. Having my instructors as mentors was my first experience doing pair-programming and was a fantastic source of help.</p>
           <p><ins>The Result:</ins> An encyclopedia of Pokemon knowledge broken down by each generation and a related YouTube video of a selected pokemon. Also in browse mode, you can move your character around to "catch" a pokemon coming at you to see more information about it.</p>
         </div>
